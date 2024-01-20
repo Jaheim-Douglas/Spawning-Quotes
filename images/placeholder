@@ -1,0 +1,13 @@
+let elementNode = document.createElement("h1");
+
+    let attributeNode = document.createAttribute("class");
+
+    let textNode = quotes [Math.floor(Math.random()* quotes.length)];
+
+    elementNode.appendChild(textNode);
+
+    elementNode.setAttributeNode(attributeNode);
+
+    attributeNode.value = "quote";
+
+    document.body.appendChild(elementNode);
